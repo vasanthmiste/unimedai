@@ -1,0 +1,8 @@
+models:
+  classification:
+    type: "ResNet50"
+    pretrained: true
+  segmentation:
+    type: "UNet"
+    encoder: "efficientnet-b3"
+    pretrained: true

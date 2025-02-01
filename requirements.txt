@@ -1,0 +1,7 @@
+torch
+torchvision
+mlflow
+segmentation-models-pytorch
+numpy
+pandas
+matplotlib

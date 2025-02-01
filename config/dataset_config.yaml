@@ -1,0 +1,7 @@
+dataset:
+  source: "s3://medai-datasets/"
+  format: "DICOM"
+  preprocess:
+    resize: [256, 256]
+    normalize: true
+    augmentation: true

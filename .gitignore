@@ -1,0 +1,57 @@
+# Ignore Python virtual environment
+unimedai_venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.err
+
+# Ignore dataset and large files
+data/
+datasets/
+*.h5
+*.hdf5
+*.pkl
+*.csv
+*.tsv
+*.json
+*.xml
+*.zip
+
+# Ignore model checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# Ignore experiment tracking files
+mlruns/
+wandb/
+tensorboard/
+
+# Ignore cloud storage configurations
+.gcloudignore
+.aws/
+.gcs/
+.s3cfg
+
+# Ignore Docker build files
+docker-compose.override.yml
+.dockerignore
+
+# Ignore VSCode settings
+.vscode/
